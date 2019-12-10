@@ -1,0 +1,369 @@
+@media (min-width: 992px) {
+  .col-md-12 {
+    float: left;
+  }
+
+@media (min-width: 768px) {
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4{
+    float: left;
+  }
+
+ .col-sm-4 {
+    width: 33.33333333333333%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-2 {
+    width: 16.666666666666664%;
+  }
+.col-sm-pull-4 {
+    right: 33.33333333333333%;
+  }
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+  .col-sm-pull-2 {
+    right: 16.666666666666664%;
+  }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+
+
+
+
+@media (min-width: 992px) {
+
+  .col-md-12 {
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+
+
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+
+
+
+
+
+
+.col-sm-3,
+.col-sm-2,
+.col-sm-4,
+.col-md-12,
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container > .navbar-header,
+.container > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.form-control:-moz-placeholder {
+  color: #999999;
+}
+
+.form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #999999;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.form-control[disabled],
+.form-control[readonly],
+
+#reservation-form {
+	margin-top: 0px;
+}
+/* Vertical */
+#reservation-form .reservation-horizontal, #reservation-form .reservation-vertical, #contact-form .contact-vertical {
+	border: 0px solid #ebebeb;
+	padding: 10px 30px;
+	z-index: 9999;
+	background-color: #fff;
+	/*-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	opacity: 0.8;*/
+}
+#reservation-form .reservation-vertical h2 {
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+#reservation-form .reservation-vertical h4 {
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/* Price */
+#reservation-form .price {
+	padding: 10px 25px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 12px;
+	font-size: 18px;
+	display: block;
+	border: 1px dashed #ebebeb;
+}
+#reservation-form .price h4 {
+	color: #333;
+	padding-right: 5px;
+}
+#reservation-form .price span {
+	color: #979797;
+	font-weight: normal;
+	padding-left: 5px;
+	font-size: 11px;
+}
+/* Horizontal */
+#reservation-form .reservation-horizontal .col-sm-1, #reservation-form .reservation-horizontal .col-sm-2, #reservation-form .reservation-horizontal .col-sm-3 {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0;
+}
+#reservation-form .form-inline select.form-control {
+	width: 100% !important;
+}
+#reservation-form .form-inline .form-group {
+	width: 100%;
+}
+/* Icons */
+#reservation-form .popover-icon i {
+	color: #9f9f9f;
+	font-size: 18px;
+}
+#reservation-form .fa.infield {
+	position: absolute;
+	float: right;
+	right: 57px;
+	margin-top: 32px;
+	font-size: 14px;
+}
+#reservation-form .form-inline .fa.infield {
+	position: absolute;
+	float: right;
+	right: 20px;
+	font-size: 14px;
+	top: 0;
+	width: 14px;
+}
+/* Button */
+#reservation-form .col-sm-2 button {
+	margin-top: 25px;
+}
+/* Guests */
+#reservation-form .guests-select {
+	z-index: 100;
+	cursor: pointer;
+}
+#reservation-form .guests-select .guests {
+	margin-top: -261px;
+	width: 200px;
+	height: auto;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	border: 1px solid #ebebeb;
+	-webkit-box-shadow: 0 3px 0 0 rgba(0,0,0,0.12);
+	box-shadow: 0 3px 0 0 rgba(0,0,0,0.12);
+	z-index: 500;
+	background-color: #fff;
+	position: absolute;
+	padding: 20px;
+	cursor: default !important;
+	display: none;
+	animation-name: fadeIn;
+	animation-duration: 0.2s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	-webkit-animation-name: fadeIn;
+	-webkit-animation-duration: 0.2s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	-moz-animation-name: fadeIn;
+	-moz-animation-duration: 0.2s;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: ease-out;
+}
+#reservation-form .form-inline .guests-select .form-group {
+	padding-bottom: 15px;
+}
+/* Datepicker*/
+#reservation-form .hasDatepicker {
+	cursor: pointer;
+}
+/* Error Message */
+.error_message {
+	color: #F00;
+}
+
+.btn {
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,0.38)), color-stop(100%, rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61ffffff', endColorstr='#00ffffff', GradientType=0 ); /* IE6-9 */
+	color: #ffffff;
+	-webkit-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.3);
+	box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.3);
+	-webkit-transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-ms-transition: all 0.1s ease-in;
+	-o-transition: all 0.1s ease-in;
+	transition: all 0.1s ease-in;
+	text-transform: uppercase;
+	font-weight: bold;
+}

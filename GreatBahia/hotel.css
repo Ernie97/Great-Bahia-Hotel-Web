@@ -1,0 +1,90 @@
+
+
+
+*{
+  font-family: "Arial" !important;
+  font-size: 16px !important;
+}
+h1{
+    font-size: 33px !important;
+}
+h3{
+    font-size:27px !important;
+}
+a{
+    font-size: 20px !important;
+}
+
+
+.topCabecera{
+	background-color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    padding-bottom: 55px;
+    padding-top: 60px;
+}
+.tituloPagina{
+	
+
+	color: white;
+	font-size: 3.3em;
+	text-align: center;
+
+}
+
+.navegacion{
+	padding-top: 60px;
+	font-size:1.9em;
+	text-align: center;
+}
+
+.topHabitaciones{
+    color : white;
+	background-image: url("mar3.jpg");
+	background-position: center center; 
+    background-color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.tituloHabitaciones{
+	color: white;
+	background-color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    padding-bottom: 70px;
+    padding-top: 70px;
+    font-size: 2.7em;
+   	text-align: center;
+}
+
+.subtituloPagina{
+	text-align: center;
+	color: white;
+
+}
+
+.tituloTipo{
+    color: white;
+	background-color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 2.7em;
+}
+
+.mostrarTipos{
+	color: white;
+	background-color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.infoTipos{
+	background-color: #fff;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.formulario{
+     background-color: rgba(3,0,0,0.5);
+}
